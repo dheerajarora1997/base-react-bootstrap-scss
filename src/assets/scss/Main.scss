@@ -1,0 +1,19 @@
+
+// Bootstrap Mixin, Functions & Custom Variables
+@import './GetBootstrap.scss';
+
+@import './bootstrap-scss/root', './bootstrap-scss/reboot', './bootstrap-scss/utilities', './bootstrap-scss/utilities/api', './bootstrap-scss/containers', './bootstrap-scss/navbar', './bootstrap-scss/nav', './bootstrap-scss/buttons', './bootstrap-scss/grid';
+
+// Custom Scss Component
+@import './Components/font-size', './Components/height', './Components/line-height', './Components/width', './Components/z-index';
+
+
+@import './Typography.scss';
+
+// Generic css
+@import './Skeleton.scss';
+
+
+.Main{
+  min-height: calc(100vh - 104px);
+}
